@@ -1,0 +1,15 @@
+--- apertium-kaz-tat-0.2.1/apertium-kaz-tat.kaz.lexc.orig	2014-05-04 21:46:33.000000000 +0200
++++ apertium-kaz-tat-0.2.1/apertium-kaz-tat.kaz.lexc	2015-12-28 21:35:25.058915600 +0100
+@@ -1477,9 +1477,9 @@
+ 
+ %<num%>%<ord%>: # ;
+ 
+-LEXICON DIGITLEX
+-
+-%<num%>: # ;
++!LEXICON DIGITLEX
++!
++!%<num%>: # ;
+ 
+ LEXICON POST
+ 
